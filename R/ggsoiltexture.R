@@ -10,10 +10,10 @@
 #' @examples
 #'
 #' simple_data <- data.frame(id = c("A","B","C","D"),
-#'              sand = c(3,4,7,5,6),
-#'              silt  = c(5,5,7,3,0),
-#'              clay = c(28.57,14.29,0,-28.57,-85.71),
-#'              om = c("increase","increase","no change","decrease","decrease"))
+#'              clay = c(10,20,25,20,10),
+#'              silt  = c(35,15,45,30,40),
+#'              sand = c(55.65,30,0,50,50),
+#'              om = c(5,15,5,12,7))
 #'
 #' ggsoiltexture(data = simple_data)
 #'
