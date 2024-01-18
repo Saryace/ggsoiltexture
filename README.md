@@ -1,6 +1,9 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10530652.svg)](https://doi.org/10.5281/zenodo.10530652)
+
 # ggsoiltexture
 
 The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. It is still in development, mainly for use in pubs. If you use this package please cite this repository.
+
 
 ## Installation
 

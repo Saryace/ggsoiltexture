@@ -9,11 +9,11 @@
 #' @return ggplot2 graphical object
 #' @examples
 #'
-#' simple_data <- data.frame(id = c("A","B","C","D"),
-#'              clay = c(10,20,25,20,10),
-#'              silt  = c(35,15,45,30,40),
-#'              sand = c(55.65,30,0,50,50),
-#'              om = c(5,15,5,12,7))
+#'simple_data <- data.frame(id = c("A","B","C","D","E"),
+#'           clay = c(10,20,25,20,10),
+#'           silt  = c(35,15,45,30,40),
+#'           sand = c(55,65,30,50,50),
+#'           om = c(5,15,5,12,7))
 #'
 #' ggsoiltexture(data = simple_data)
 #'
