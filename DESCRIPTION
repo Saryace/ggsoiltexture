@@ -1,0 +1,13 @@
+Package: ggsoiltexture
+Type: Package
+Title: Simple ggplot2 function for plotting soil textural data
+Version: 0.1.0
+Author: Sara Acevedo 
+Maintainer: Sara Acevedo <seaceved@uc.cl>
+Description: Simple ggplot2 function for plotting soil textural data
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  dplyr
+  ggplot2
