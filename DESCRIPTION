@@ -11,3 +11,5 @@ LazyData: true
 Imports: 
   dplyr
   ggplot2
+URL: https://github.com/Saryace/ggsoiltexture
+BugReports: https://github.com/Saryace/ggsoiltexture/issues
