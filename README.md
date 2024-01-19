@@ -2,10 +2,10 @@
 
 # ggsoiltexture
 
-The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. It is still in development, mainly for use in pubs. If you use this package please cite this repository.
+The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. It is still in development, mainly for use in pubs. If you use this package please cite this repository. Hope it is useful!
 
-# acknowledgement 
-The code was development based on the ggplot_piper functions written by [Jonh Dorian](https://gist.github.com/johnDorian/5561272)
+## Acknowledgement 
+The code was development based on the ggplot_piper functions written by [Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired by the R package [ggtern](https://github.com/nicholasehamilton/ggtern). Thanks for sharing your knowledge. 
 
 ## Installation
 
@@ -17,7 +17,7 @@ devtools::install_github("Saryace/ggsoiltexture")
 ```
 
 ## What do you need?
-Dataframe with three variables called:
+Dataframe or tibble with three variables called:
 - sand, as percentage
 - silt, as percentage
 - clay, as percentage
@@ -95,20 +95,31 @@ pub_plot
 
 ### Adding USDA classification system
 
-Using geom_polygon, a layer showing the USDA classes can be added
+Using geom_polygon, a layer showing the USDA classes can be added.
 
 ``` r
-pub_plot <-
-    ggsoiltexture(some_data) +
-    geom_point(aes(color = om), size = 6) +
-    scale_color_continuous(type = "viridis") +
-    labs(color = "Organic\nMatter (%)") +
-    geom_label_repel(aes(label = id), box.padding = 0.5) +
-    theme(legend.title = element_text(face = "bold"),
-          legend.position = "bottom")
+# load the USDA polygon info
 
-pub_plot 
+data(usda_polygons)
+
+# then plot
+
+usda_plot <-
+ggsoiltexture(some_data) +
+  geom_polygon(
+    data = usda_polygons,
+    aes(fill = label),
+    alpha = 0.0,
+    size = 0.5,
+    color = "black"
+  ) +
+  geom_text(data = usda_polygons  %>% group_by(label) %>%
+              summarise_if(is.numeric, mean, na.rm = TRUE),
+            aes(label = label),
+            color = 'black',
+            size = 3) +
+  theme(legend.position = "none")
 
 ```
 
-![](img/pub_plot.png)
+![](img/usda_plot.png)
