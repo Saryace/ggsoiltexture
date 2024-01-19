@@ -1,5 +1,7 @@
-#' @title USDA soil texture polygons (usda_polygons)
-#' @description Data describing polygons for each soil textural class
-#' @format dataframe-tibble
-#' @source USDA and ggtern data(USDA)
-"usda_polygons"
+delayedAssign("usda_polygons", local({
+  if (requireNamespace("tibble", quietly = TRUE)) {
+    tibble::as_tibble(usda_polygons:::usda_polygons)
+  } else {
+    usda_polygons:::usda_polygons
+  }
+}))
