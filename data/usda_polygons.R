@@ -1,7 +1,7 @@
-delayedAssign("usda_polygons", local({
+delayedAssign("ggsoiltexture", local({
   if (requireNamespace("tibble", quietly = TRUE)) {
-    tibble::as_tibble(usda_polygons:::usda_polygons)
+    tibble::as_tibble(ggsoiltexture:::usda_polygons)
   } else {
-    usda_polygons:::usda_polygons
+    ggsoiltexture:::usda_polygons
   }
 }))
