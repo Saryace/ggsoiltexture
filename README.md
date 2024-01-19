@@ -4,6 +4,8 @@
 
 The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. It is still in development, mainly for use in pubs. If you use this package please cite this repository.
 
+# acknowledgement 
+The code was development based on the ggplot_piper functions written by [Jonh Dorian](https://gist.github.com/johnDorian/5561272)
 
 ## Installation
 
@@ -52,7 +54,7 @@ Error in ggsoiltexture(fail_data) :
 
 
 
-### Plot
+### Simple plot
 
 A simple plot can be done directly
 
@@ -70,3 +72,43 @@ another_plot
 ```
 
 ![](img/another_plot.png)
+
+### Adding more layers
+
+Because ggsoiltexture is based on ggplot2, more geoms, themes, can be added
+
+``` r
+pub_plot <-
+    ggsoiltexture(some_data) +
+    geom_point(aes(color = om), size = 6) +
+    scale_color_continuous(type = "viridis") +
+    labs(color = "Organic\nMatter (%)") +
+    geom_label_repel(aes(label = id), box.padding = 0.5) +
+    theme(legend.title = element_text(face = "bold"),
+          legend.position = "bottom")
+
+pub_plot 
+
+```
+
+![](img/pub_plot.png)
+
+### Adding USDA classification system
+
+Using geom_polygon, a layer showing the USDA classes can be added
+
+``` r
+pub_plot <-
+    ggsoiltexture(some_data) +
+    geom_point(aes(color = om), size = 6) +
+    scale_color_continuous(type = "viridis") +
+    labs(color = "Organic\nMatter (%)") +
+    geom_label_repel(aes(label = id), box.padding = 0.5) +
+    theme(legend.title = element_text(face = "bold"),
+          legend.position = "bottom")
+
+pub_plot 
+
+```
+
+![](img/pub_plot.png)
