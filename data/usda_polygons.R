@@ -1,4 +1,4 @@
-delayedAssign("ggsoiltexture", local({
+delayedAssign("usda_polygons", local({
   if (requireNamespace("tibble", quietly = TRUE)) {
     tibble::as_tibble(ggsoiltexture:::usda_polygons)
   } else {
