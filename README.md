@@ -1,36 +1,32 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10530652.svg)](https://doi.org/10.5281/zenodo.10530652)
 
 # ggsoiltexture
 
-The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. It is still in development, mainly for use in pubs. If you use this package please cite this repository. Hope it is useful!
+The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. It is still in development and under review in a journal for publication. Meanwhile, if you use this package please cite this repository. Hope it is useful!
 
-## Acknowledgement 
-The code was development based on the ggplot_piper functions written by [Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired by the R package [ggtern](https://github.com/nicholasehamilton/ggtern). Thanks for sharing your knowledge. 
+## Acknowledgements 
+The code was development based on the ggplot_piper functions written by [Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired by the R package [ggtern](https://github.com/nicholasehamilton/ggtern). Thanks for sharing your knowledge. Also, thanks for the X users that give us feedback about functionalities and new ideas.
 
 ## Installation
 
-You can install the ggsoiltexture v1.0 from [GitHub](https://github.com/Saryace/ggsoiltexture) with:
+You can install the last version of ggsoiltexture from [GitHub](https://github.com/Saryace/ggsoiltexture). This package will be available in CRAN after publication in a journal. 
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("Saryace/ggsoiltexture")
+
 ```
 
 ## What do you need?
 Dataframe or tibble with three variables called:
-- sand, as percentage
-- silt, as percentage
-- clay, as percentage
-
-## More info
-
-- Visit the [lab's YT channel](https://www.youtube.com/@laboratoriobiofisicadesuel2912)
+- sand, as percentage (0 - 100)
+- silt, as percentage (0 - 100)
+- clay, as percentage (0 - 100)
 
 ## Main functions:
 
 **`ggsoiltexture`**
 
-This function plots soil texture in a ternary plot.
+This function plots soil texture in a ternary plot. 
 
 ## Tutorial
 
@@ -51,8 +47,6 @@ Error in ggsoiltexture(fail_data) :
   Some of your textural data do not sum 100%, please check.!
 
 ```
-
-
 
 ### Simple plot
 

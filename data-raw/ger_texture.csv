@@ -1,0 +1,123 @@
+CODE,NAME_GER,NAME,sand,silt,clay
+Ss,Reiner Sand,Pure Sand,100,0,0
+Ss,Reiner Sand,Pure Sand,95,0,5
+Ss,Reiner Sand,Pure Sand,85,10,5
+Ss,Reiner Sand,Pure Sand,90,10,0
+Su2,Schwach schluffiger Sand,Slightly Silty Sand,90,10,0
+Su2,Schwach schluffiger Sand,Slightly Silty Sand,85,10,5
+Su2,Schwach schluffiger Sand,Slightly Silty Sand,70,25,5
+Su2,Schwach schluffiger Sand,Slightly Silty Sand,75,25,0
+Su3,Mittel schluffiger Sand,Moderately Silty Sand,75,25,0
+Su3,Mittel schluffiger Sand,Moderately Silty Sand,67,25,8
+Su3,Mittel schluffiger Sand,Moderately Silty Sand,52,40,8
+Su3,Mittel schluffiger Sand,Moderately Silty Sand,60,40,0
+Su4,Stark schluffiger Sand,Highly Silty Sand,60,40,0
+Su4,Stark schluffiger Sand,Highly Silty Sand,52,40,8
+Su4,Stark schluffiger Sand,Highly Silty Sand,42,50,8
+Su4,Stark schluffiger Sand,Highly Silty Sand,50,50,0
+Sl2,Schwach lehmiger Sand,Slightly Loamy Sand,85,10,5
+Sl2,Schwach lehmiger Sand,Slightly Loamy Sand,82,10,8
+Sl2,Schwach lehmiger Sand,Slightly Loamy Sand,67,25,8
+Sl2,Schwach lehmiger Sand,Slightly Loamy Sand,70,25,5
+Sl3,Mittel lehmiger Sand,Moderately Loamy Sand,82,10,8
+Sl3,Mittel lehmiger Sand,Moderately Loamy Sand,78,10,12
+Sl3,Mittel lehmiger Sand,Moderately Loamy Sand,48,40,12
+Sl3,Mittel lehmiger Sand,Moderately Loamy Sand,52,40,8
+St2,Schwach toniger Sand,Slightly Clayey Sand,95,0,5
+St2,Schwach toniger Sand,Slightly Clayey Sand,83,0,17
+St2,Schwach toniger Sand,Slightly Clayey Sand,73,10,17
+St2,Schwach toniger Sand,Slightly Clayey Sand,85,10,5
+Uu,Reiner Schluff,Pure Silt,20,80,0
+Uu,Reiner Schluff,Pure Silt,12,80,8
+Uu,Reiner Schluff,Pure Silt,0,92,8
+Uu,Reiner Schluff,Pure Silt,0,100,0
+Us,Sandiger Schluff,Sandy Silt,50,50,0
+Us,Sandiger Schluff,Sandy Silt,42,50,8
+Us,Sandiger Schluff,Sandy Silt,12,80,8
+Us,Sandiger Schluff,Sandy Silt,20,80,0
+Slu,Schluffig-lehmiger Sand,Silty-Loamy Sand,52,40,8
+Slu,Schluffig-lehmiger Sand,Silty-Loamy Sand,43,40,17
+Slu,Schluffig-lehmiger Sand,Silty-Loamy Sand,33,50,17
+Slu,Schluffig-lehmiger Sand,Silty-Loamy Sand,42,50,8
+Sl4,Stark lehmiger Sand,Highly Loamy Sand,78,10,12
+Sl4,Stark lehmiger Sand,Highly Loamy Sand,73,10,17
+Sl4,Stark lehmiger Sand,Highly Loamy Sand,43,40,17
+Sl4,Stark lehmiger Sand,Highly Loamy Sand,48,40,12
+Uls,Sandig-lehmiger Schluff,Sandy-Loamy Silt,42,50,8
+Uls,Sandig-lehmiger Schluff,Sandy-Loamy Silt,33,50,17
+Uls,Sandig-lehmiger Schluff,Sandy-Loamy Silt,18,65,17
+Uls,Sandig-lehmiger Schluff,Sandy-Loamy Silt,27,65,8
+Ut2,Schwach toniger Schluff,Slightly Clayey Silt,27,65,8
+Ut2,Schwach toniger Schluff,Slightly Clayey Silt,23,65,12
+Ut2,Schwach toniger Schluff,Slightly Clayey Silt,0,88,12
+Ut2,Schwach toniger Schluff,Slightly Clayey Silt,0,92,8
+Ut3,Mittel toniger Schluff,Moderately Clayey Silt,23,65,12
+Ut3,Mittel toniger Schluff,Moderately Clayey Silt,18,65,17
+Ut3,Mittel toniger Schluff,Moderately Clayey Silt,0,83,17
+Ut3,Mittel toniger Schluff,Moderately Clayey Silt,0,88,12
+St3,Mittel toniger Sand,Moderately Clayey Sand,83,0,17
+St3,Mittel toniger Sand,Moderately Clayey Sand,75,0,25
+St3,Mittel toniger Sand,Moderately Clayey Sand,60,15,25
+St3,Mittel toniger Sand,Moderately Clayey Sand,68,15,17
+Ls4,Stark sandiger Lehm,Highly Sandy Loam,68,15,17
+Ls4,Stark sandiger Lehm,Highly Sandy Loam,60,15,25
+Ls4,Stark sandiger Lehm,Highly Sandy Loam,45,30,25
+Ls4,Stark sandiger Lehm,Highly Sandy Loam,53,30,17
+Ls3,Mittel sandiger Lehm,Moderately Sandy Loam,53,30,17
+Ls3,Mittel sandiger Lehm,Moderately Sandy Loam,45,30,25
+Ls3,Mittel sandiger Lehm,Moderately Sandy Loam,35,40,25
+Ls3,Mittel sandiger Lehm,Moderately Sandy Loam,43,40,17
+Ls2,Schwach sandiger Lehm,Slightly Sandy Loam,43,40,17
+Ls2,Schwach sandiger Lehm,Slightly Sandy Loam,35,40,25
+Ls2,Schwach sandiger Lehm,Slightly Sandy Loam,25,50,25
+Ls2,Schwach sandiger Lehm,Slightly Sandy Loam,33,50,17
+Lt2,Schwach toniger Lehm,Slightly Clayey Loam,45,30,25
+Lt2,Schwach toniger Lehm,Slightly Clayey Loam,35,30,35
+Lt2,Schwach toniger Lehm,Slightly Clayey Loam,15,50,35
+Lt2,Schwach toniger Lehm,Slightly Clayey Loam,25,50,25
+Ut4,Stark toniger Schluff,Highly Clayey Silt,18,65,17
+Ut4,Stark toniger Schluff,Highly Clayey Silt,10,65,25
+Ut4,Stark toniger Schluff,Highly Clayey Silt,0,75,25
+Ut4,Stark toniger Schluff,Highly Clayey Silt,0,83,17
+Lu,Schluffiger Lehm,Silty Loam,33,50,17
+Lu,Schluffiger Lehm,Silty Loam,20,50,30
+Lu,Schluffiger Lehm,Silty Loam,5,65,30
+Lu,Schluffiger Lehm,Silty Loam,18,65,17
+Lts,Sandig-toniger Lehm,Sandy-Clayey Loam,60,15,25
+Lts,Sandig-toniger Lehm,Sandy-Clayey Loam,40,15,45
+Lts,Sandig-toniger Lehm,Sandy-Clayey Loam,25,30,45
+Lts,Sandig-toniger Lehm,Sandy-Clayey Loam,45,30,25
+Ts4,Stark sandiger Ton,Highly Sandy Clay,75,0,25
+Ts4,Stark sandiger Ton,Highly Sandy Clay,65,0,35
+Ts4,Stark sandiger Ton,Highly Sandy Clay,50,15,35
+Ts4,Stark sandiger Ton,Highly Sandy Clay,60,15,25
+Ts3,Mittel sandiger Ton,Moderately Sandy Clay,65,0,35
+Ts3,Mittel sandiger Ton,Moderately Sandy Clay,55,0,45
+Ts3,Mittel sandiger Ton,Moderately Sandy Clay,40,15,45
+Ts3,Mittel sandiger Ton,Moderately Sandy Clay,50,15,35
+Tu3,Mittel schluffiger Ton,Moderately Silty Clay,20,50,30
+Tu3,Mittel schluffiger Ton,Moderately Silty Clay,5,50,45
+Tu3,Mittel schluffiger Ton,Moderately Silty Clay,0,65,35
+Tu3,Mittel schluffiger Ton,Moderately Silty Clay,5,65,30
+Tu4,Stark schluffiger Ton,Highly Silty Clay,10,65,25
+Tu4,Stark schluffiger Ton,Highly Silty Clay,0,65,35
+Tu4,Stark schluffiger Ton,Highly Silty Clay,0,75,25
+Lt3,Mittel toniger Lehm,Moderately Clayey Loam,35,30,35
+Lt3,Mittel toniger Lehm,Moderately Clayey Loam,25,30,45
+Lt3,Mittel toniger Lehm,Moderately Clayey Loam,5,50,45
+Lt3,Mittel toniger Lehm,Moderately Clayey Loam,15,50,35
+Ts2,Schwach sandiger Ton,Slightly Sandy Clay,55,0,45
+Ts2,Schwach sandiger Ton,Slightly Sandy Clay,35,0,65
+Ts2,Schwach sandiger Ton,Slightly Sandy Clay,20,15,65
+Ts2,Schwach sandiger Ton,Slightly Sandy Clay,40,15,45
+Tl,Lehmiger Ton,Loamy Clay,40,15,45
+Tl,Lehmiger Ton,Loamy Clay,20,15,65
+Tl,Lehmiger Ton,Loamy Clay,5,30,65
+Tl,Lehmiger Ton,Loamy Clay,25,30,45
+Tu2,Schwach schluffiger Ton,Slightly Silty Clay,25,30,45
+Tu2,Schwach schluffiger Ton,Slightly Silty Clay,5,30,65
+Tu2,Schwach schluffiger Ton,Slightly Silty Clay,0,35,65
+Tu2,Schwach schluffiger Ton,Slightly Silty Clay,0,55,45
+Tt,Reiner Ton,Pure Clay,35,0,65
+Tt,Reiner Ton,Pure Clay,0,0,100
+Tt,Reiner Ton,Pure Clay,0,35,65

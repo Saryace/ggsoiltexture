@@ -1,0 +1,39 @@
+CODE,GERMAN_NAME,ENGLISH_TRANSLATION,sand,silt,clay
+S,Sandboden,Sandy Soil,100,0,0
+S,Sandboden,Sandy Soil,50,50,0
+S,Sandboden,Sandy Soil,95,0,5
+S,Sandboden,Sandy Soil,45,50,5
+lS,Lehmiger Sand,Loamy Sand,95,0,5
+lS,Lehmiger Sand,Loamy Sand,90,0,10
+lS,Lehmiger Sand,Loamy Sand,40,50,10
+lS,Lehmiger Sand,Loamy Sand,45,50,5
+sL,Sandiger Lehm,Sandy Loam,90,0,10
+sL,Sandiger Lehm,Sandy Loam,40,50,10
+sL,Sandiger Lehm,Sandy Loam,30,50,20
+sL,Sandiger Lehm,Sandy Loam,80,0,20
+L,Lehmboden,Loam,80,0,20
+L,Lehmboden,Loam,30,50,20
+L,Lehmboden,Loam,20,50,30
+L,Lehmboden,Loam,70,0,30
+tL,Toniger Lehm,Clayey Loam,70,0,30
+tL,Toniger Lehm,Clayey Loam,60,0,40
+tL,Toniger Lehm,Clayey Loam,10,50,40
+tL,Toniger Lehm,Clayey Loam,20,50,30
+lT,Lehmiger Ton,Loamy Clay,60,0,40
+lT,Lehmiger Ton,Loamy Clay,50,0,50
+lT,Lehmiger Ton,Loamy Clay,0,50,50
+lT,Lehmiger Ton,Loamy Clay,10,50,40
+T,Tonboden,Clay Soil,0,50,50
+T,Tonboden,Clay Soil,0,0,100
+T,Tonboden,Clay Soil,50,0,50
+U,Schluffboden,Silty Soil,50,50,0
+U,Schluffboden,Silty Soil,40,50,10
+U,Schluffboden,Silty Soil,0,90,10
+U,Schluffboden,Silty Soil,0,100,0
+lU,Schlufflehm,Silty Loam,0,90,10
+lU,Schlufflehm,Silty Loam,40,50,10
+lU,Schlufflehm,Silty Loam,20,50,30
+lU,Schlufflehm,Silty Loam,0,70,30
+tU,Toniger Schlufflehm,Clayey Silty Loam,20,50,30
+tU,Toniger Schlufflehm,Clayey Silty Loam,0,50,50
+tU,Toniger Schlufflehm,Clayey Silty Loam,0,70,30

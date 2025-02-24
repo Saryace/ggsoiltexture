@@ -1,0 +1,43 @@
+CLAY,SAND,SILT,NAME,CODE
+100,0,0,Clay,C
+60,40,0,Clay,C
+60,0,40,Clay,C
+60,40,0,Loamy Clay,LC
+60,10,30,Loamy Clay,LC
+35,35,30,Loamy Clay,LC
+35,65,0,Loamy Clay,LC
+60,10,30,Silty Clay,ZC
+60,0,40,Silty Clay,ZC
+35,0,65,Silty Clay,ZC
+35,35,30,Silty Clay,ZC
+35,65,0,Sandy Clay Loam,SC
+35,50,15,Sandy Clay Loam,SC
+18,67,15,Sandy Clay Loam,SC
+18,82,0,Sandy Clay Loam,SC
+35,50,15,Clay Loam,CL
+35,25,40,Clay Loam,CL
+18,42,40,Clay Loam,CL
+18,67,15,Clay Loam,CL
+35,25,40,Silt Loam,ZL
+35,0,65,Silt Loam,ZL
+18,0,82,Silt Loam,ZL
+18,42,40,Silt Loam,ZL
+18,82,0,Sandy Loam,SL
+18,42,40,Sandy Loam,SL
+8,52,40,Sandy Loam,SL
+8,92,0,Sandy Loam,SL
+8,92,0,Sand,S
+8,80,12,Sand,S
+0,80,20,Sand,S
+0,100,0,Sand,S
+8,80,12,Loamy Sand,LS
+8,52,40,Loamy Sand,LS
+0,60,40,Loamy Sand,LS
+0,80,20,Loamy Sand,LS
+18,42,40,Loamy Silt,LZ
+18,0,82,Loamy Silt,LZ
+0,18,82,Loamy Silt,LZ
+0,60,40,Loamy Silt,LZ
+18,0,82,Silt,Z
+0,0,100,Silt,Z
+0,18,82,Silt,Z
