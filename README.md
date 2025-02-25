@@ -31,20 +31,6 @@ You can plot a simple soil textural triangle directly:
 
 ``` r
 library(tidyverse)
-```
-
-    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.4     ✔ readr     2.1.5
-    ## ✔ forcats   1.0.0     ✔ stringr   1.5.1
-    ## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-    ## ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-    ## ✔ purrr     1.0.2     
-    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-    ## ✖ dplyr::filter() masks stats::filter()
-    ## ✖ dplyr::lag()    masks stats::lag()
-    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-
-``` r
 library(ggsoiltexture)
 some_data <- tibble(id = c("Soil A","Soil B","Soil C","Soil D","Soil E"),
                           clay = c(10,20,25,20,50),
@@ -230,3 +216,13 @@ ggsoiltexture(tibble(sand = c(90, 30, 50, 0, 50),
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.gif)<!-- -->
+
+# How to contribute
+
+We welcome any issues and pull requests.
+
+Please report any bugs you find by submitting an issue on
+github.com/Saryace/ggsoiltexture/issues.
+
+If you wish to contribute, please submit a pull request following the
+guidelines stated in CONTRIBUTING.md.

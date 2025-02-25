@@ -26,7 +26,7 @@ You can install the last version of ggsoiltexture from [GitHub](https://github.c
 
 You can plot a simple soil textural triangle directly:
 
-```{r simple_plot, warning=FALSE}
+```{r simple_plot, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(ggsoiltexture)
 some_data <- tibble(id = c("Soil A","Soil B","Soil C","Soil D","Soil E"),
