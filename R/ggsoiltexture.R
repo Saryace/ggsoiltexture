@@ -138,7 +138,7 @@ ggsoiltexture <- function(data, show_grid = TRUE, class = NULL) {
         data = class_data %>% dplyr::group_by(label) %>% dplyr::summarise_if(is.numeric, mean, na.rm = TRUE),
         aes(x, y, label = label),
         color = 'black',
-        size = 3
+        size = 2.5
       )
   }
 
