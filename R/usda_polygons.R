@@ -1,5 +1,5 @@
-#' @title German soil texture polygons (german_polygons)
+#' @title USDA soil texture polygons (usda_polygons)
 #' @description Data describing polygons for each soil textural class
 #' @format dataframe-tibble
-#' @source Kartieranleitung Bodenschätzung (KA5) (Ad-hoc-Arbeitsgruppe Boden 2005)
-"german_polygons"
+#' @source USDA and ggtern data(USDA)
+"usda_polygons"

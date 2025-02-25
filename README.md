@@ -1,77 +1,76 @@
+ggsoiltexture
+================
 
-# ggsoiltexture
+The goal of ggsoiltexture is to provide a simple ggplot function for the
+plotting of soil textural data. It is still in development and under
+review in a journal for publication. Meanwhile, if you use this package
+please cite this repository. Hope it is useful!
 
-The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. It is still in development and under review in a journal for publication. Meanwhile, if you use this package please cite this repository. Hope it is useful!
+## Acknowledgements
 
-## Acknowledgements 
-The code was development based on the ggplot_piper functions written by [Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired by the R package [ggtern](https://github.com/nicholasehamilton/ggtern). Thanks for sharing your knowledge. Also, thanks for the X users that give us feedback about functionalities and new ideas.
+The code was development based on the ggplot_piper functions written by
+[Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired
+by the R package [ggtern](https://github.com/nicholasehamilton/ggtern).
+Thanks for sharing your knowledge. Also, thanks for the X users that
+give us feedback about functionalities and new ideas.
 
 ## Installation
 
-You can install the last version of ggsoiltexture from [GitHub](https://github.com/Saryace/ggsoiltexture). This package will be available in CRAN after publication in a journal. 
+You can install the last version of ggsoiltexture from
+[GitHub](https://github.com/Saryace/ggsoiltexture). This package will be
+available in CRAN after publication in a journal.
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Saryace/ggsoiltexture")
-
+# devtools::install_github("Saryace/ggsoiltexture")
 ```
 
-## What do you need?
-Dataframe or tibble with three variables called:
-- sand, as percentage (0 - 100)
-- silt, as percentage (0 - 100)
-- clay, as percentage (0 - 100)
+## Main function: ggsoiltexture
 
-## Main functions:
-
-**`ggsoiltexture`**
-
-This function plots soil texture in a ternary plot. 
-
-## Tutorial
-
-### Data
-Your data must to sum up 100%. The function will stop if it is not checked previously
+You can plot a simple soil textural triangle directly:
 
 ``` r
 library(tidyverse)
-library(ggsoiltexture)
-fail_data <- data.frame(
-              clay = c(100,20,25,20,10),
-              silt  = c(35,150,45,30,40),
-              sand = c(55.65,30,0,500,50))
-
-ggsoiltexture(fail_data)
-
-Error in ggsoiltexture(fail_data) : 
-  Some of your textural data do not sum 100%, please check.!
-
 ```
 
-### Simple plot
-
-A simple plot can be done directly
+    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+    ## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+    ## ✔ forcats   1.0.0     ✔ stringr   1.5.1
+    ## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+    ## ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+    ## ✔ purrr     1.0.2     
+    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ✖ dplyr::filter() masks stats::filter()
+    ## ✖ dplyr::lag()    masks stats::lag()
+    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 
 ``` r
-some_data <- data.frame(id = c("A","B","C","D","E"),
-                          clay = c(10,20,25,20,10),
-                          silt  = c(35,15,45,30,40),
-                          sand = c(55,65,30,50,50),
+library(ggsoiltexture)
+some_data <- data.frame(id = c("Soil A","Soil B","Soil C","Soil D","Soil E"),
+                          clay = c(10,20,25,20,50),
+                          silt  = c(35,15,45,30,10),
+                          sand = c(55,65,30,50,40),
                           om = c(5,15,5,12,7))
 
-another_plot <-
 ggsoiltexture(some_data)
-
-another_plot
 ```
 
-![](img/another_plot.png)
+![](README_files/figure-gfm/simple_plot-1.png)<!-- -->
 
-### Adding more layers
-
-Because ggsoiltexture is based on ggplot2, more geoms, themes, can be added
+Also, it is posible to remove the grid:
 
 ``` r
+ggsoiltexture(some_data,
+              show_grid = FALSE)
+```
+
+![](README_files/figure-gfm/simple_plot-2-1.png)<!-- -->
+
+Because this function is based on ggplot, you can use ggplot2
+functionalities and other packages
+
+``` r
+library(ggrepel)
 pub_plot <-
     ggsoiltexture(some_data) +
     geom_point(aes(color = om), size = 6) +
@@ -81,39 +80,45 @@ pub_plot <-
     theme(legend.title = element_text(face = "bold"),
           legend.position = "bottom")
 
-pub_plot 
-
+pub_plot
 ```
 
-![](img/pub_plot.png)
+![](README_files/figure-gfm/simple_plot-3-1.png)<!-- -->
 
-### Adding USDA classification system
-
-Using geom_polygon, a layer showing the USDA classes can be added.
+ggsoiltexture includes some classification systems from USDA, New
+Zeland, Germany and Swiss.
 
 ``` r
-# load the USDA polygon info
-
-data(usda_polygons)
-
-# then plot
-
-usda_plot <-
-ggsoiltexture(some_data) +
-  geom_polygon(
-    data = usda_polygons,
-    aes(fill = label),
-    alpha = 0.0,
-    size = 0.5,
-    color = "black"
-  ) +
-  geom_text(data = usda_polygons  %>% group_by(label) %>%
-              summarise_if(is.numeric, mean, na.rm = TRUE),
-            aes(label = label),
-            color = 'black',
-            size = 3) +
-  theme(legend.position = "none")
-
+ggsoiltexture(some_data,
+              show_grid = FALSE,
+              class = "USDA")
 ```
 
-![](img/usda_plot.png)
+![](README_files/figure-gfm/simple_plot-4-1.png)<!-- -->
+
+The fontsize of the textural class can be changed by the geom_polygon
+layer:
+
+``` r
+ggsoiltexture(some_data,
+              show_grid = FALSE,
+              class = "GERMAN")
+```
+
+![](README_files/figure-gfm/simple_plot-5-1.png)<!-- -->
+
+``` r
+ggsoiltexture(some_data,
+              show_grid = FALSE,
+              class = "NZ")
+```
+
+![](README_files/figure-gfm/simple_plot-6-1.png)<!-- -->
+
+``` r
+ggsoiltexture(some_data,
+              show_grid = FALSE,
+              class = "SWISS")
+```
+
+![](README_files/figure-gfm/simple_plot-7-1.png)<!-- -->

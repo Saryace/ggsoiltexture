@@ -1,3 +1,4 @@
+library(tidyverse)
 german_polygons <- read.csv("data-raw/ger_texture.csv") %>%
   add_row(CODE = "Tu3",
              NAME_GER = "Mittel schluffiger Ton",

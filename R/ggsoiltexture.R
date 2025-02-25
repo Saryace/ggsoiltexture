@@ -138,17 +138,17 @@ ggsoiltexture <- function(data, show_grid = TRUE, class = NULL) {
         data = class_data %>% dplyr::group_by(label) %>% dplyr::summarise_if(is.numeric, mean, na.rm = TRUE),
         aes(x, y, label = label),
         color = 'black',
-        size = 4
+        size = 3
       )
   }
 
   plot <- plot +
-    ggplot2::geom_text(data = axis_sand, aes(x = x, y = y, label = label), size = 3 , vjust = 1.5, hjust = 0.5) +
-    ggplot2::geom_text(data = axis_silt, aes(x = x, y = y, label = label), size = 3, angle = 60, vjust = 0.5, hjust = -0.5) + # tilt silt labels
-    ggplot2::geom_text(data = axis_clay, aes(x = x, y = y, label = label), size = 3, vjust = 0.5, hjust = 1.5) + # tilt clay labels
-    ggplot2::annotate("text", x = 20, y = 52.5, label = "Clay (%) →", angle = 60, size = 5) +
-    ggplot2::annotate("text", x = 75, y = 60, label = "Silt (%) →", angle = -60, vjust = 0.5, hjust = -0.5, size = 5) +
-    ggplot2::annotate("text", x = 50, y = -5, label = " ← Sand (%)", size = 5) +
+    ggplot2::geom_text(data = axis_sand, aes(x = x, y = y, label = label), size = 2 , vjust = 1.5, hjust = 0.5) +
+    ggplot2::geom_text(data = axis_silt, aes(x = x, y = y, label = label), size = 2, angle = 60, vjust = 0.5, hjust = -0.5) + # tilt silt labels
+    ggplot2::geom_text(data = axis_clay, aes(x = x, y = y, label = label), size = 2, vjust = 0.5, hjust = 1.5) + # tilt clay labels
+    ggplot2::annotate("text", x = 20, y = 52.5, label = "Clay (%) →", angle = 60, size = 3) +
+    ggplot2::annotate("text", x = 75, y = 60, label = "Silt (%) →", angle = -60, vjust = 0.5, hjust = -0.5, size = 3) +
+    ggplot2::annotate("text", x = 50, y = -5, label = " ← Sand (%)", size = 3) +
     ggplot2::coord_equal(ratio = 1) +
     ggplot2::theme_bw() +
     ggplot2::theme(

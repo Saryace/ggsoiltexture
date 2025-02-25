@@ -15,3 +15,4 @@ Suggests:
     tidyverse (>= 3.0.0),
 URL: https://github.com/Saryace/ggsoiltexture
 BugReports: https://github.com/Saryace/ggsoiltexture/issues
+RoxygenNote: 7.3.1
