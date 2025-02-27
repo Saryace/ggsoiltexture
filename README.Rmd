@@ -38,7 +38,7 @@ some_data <- tibble(id = c("Soil A","Soil B","Soil C","Soil D","Soil E"),
 ggsoiltexture(some_data)
 ```
 
-Also, it is posible to remove the grid:
+Also, it is possible to remove the grid:
 
 ```{r simple_plot-2}
 ggsoiltexture(some_data,

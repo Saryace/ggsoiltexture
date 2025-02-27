@@ -2,6 +2,32 @@ First off, thanks for taking the time to contribute! ❤️
 
 All types of contributions are encouraged and valued. If you are thinking about to include a new classification system, we are happy to include it. 
 
+## How to Add a New Classification Polygons
+To add a new soil texture classification system follow these steps:
+
+1. **Check the current Data**:
+   - Check the `data-raw/` folder to understand how the current classification polygons are created from scratch.
+
+2. **Prepare the Data**:
+   - Create a data frame with columns `sand`, `silt`,`clay`,`x`, `y`, and `label`.
+   - The `x` and `y` columns should contain the coordinates for the polygon vertices in the ternary plot space, transformed as follows:
+   `x = 0.5 * clay + silt` and `y = clay`
+   - The `label` column should contain the name of the soil texture class (e.g., "Loam", "Sandy Clay").
+   - The order of the data must ensure that the new classes are closed polygon. The order of vertices is critical for correct rendering. The correct order is bottom-left -> bottom-right -> top-right -> top-left based on `x` and `y` columns. 
+
+3. **Save the Data**:
+   - Save the data frame as an `.RData` file in the `data-raw/` folder.
+   - Use a descriptive name for the file (e.g., `french_polygons.rda`).
+
+4. **Update the Package**:
+   - Add the new classification system to the `ggsoiltexture` function by modifying the `switch(class_data <-)` statement in the code.
+   - Include an example in the function documentation.
+
+5. **Submit a Pull Request**:
+   - Fork the repository and create a new branch for your contribution.
+   - Submit a pull request with a description of the new classification system and example usage.
+
+
 ## Before Submitting an Enhancement
 
 - Make sure that you are using the latest version.
