@@ -1,0 +1,46 @@
+﻿index,clay,sand,silt,label
+11,18,20,62,Silt loam
+12,18,0,82,Silt loam
+20,0,0,100,Silt loam
+19,0,20,80,Silt loam
+10,18,50,32,Sandy silt loam
+11,18,20,62,Sandy silt loam
+19,0,20,80,Sandy silt loam
+18,0,50,50,Sandy silt loam
+9,18,82,0,Sandy loam
+10,18,50,32,Sandy loam
+18,0,50,50,Sandy loam
+17,0,70,30,Sandy loam
+13,15,85,0,Sandy loam
+13,15,85,0,Loamy sand
+17,0,70,30,Loamy sand
+16,0,85,15,Loamy sand
+14,10,90,0,Loamy sand
+14,10,90,0,Sand
+16,0,85,15,Sand
+15,0,100,0,Sand
+7,30,70,0,Sandy clay loam
+8,30,50,20,Sandy clay loam
+10,18,50,32,Sandy clay loam
+9,18,82,0,Sandy clay loam
+4,35,45,20,Clay loam
+8,30,50,20,Clay loam
+10,18,50,32,Clay loam
+11,18,20,62,Clay loam
+5,35,20,45,Clay loam
+5,35,20,45,Silty clay loam
+6,35,0,65,Silty clay loam
+12,18,0,82,Silty clay loam
+11,18,20,62,Silty clay loam
+3,55,0,45,Silty clay
+5,35,20,45,Silty clay
+6,35,0,65,Silty clay
+2,55,45,0,Sandy clay
+4,35,45,20,Sandy clay
+8,30,50,20,Sandy clay
+7,30,70,0,Sandy clay
+3,55,0,45,Clay
+5,35,20,45,Clay
+4,35,45,20,Clay
+2,55,45,0,Clay
+1,100,0,0,Clay
