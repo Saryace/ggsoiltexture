@@ -8,7 +8,7 @@ please cite this repository. Hope it is useful!
 
 ## Acknowledgements
 
-The code was development based on the ggplot_piper functions written by
+The code was developed based on the ggplot_piper functions written by
 [Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired
 by the R package [ggtern](https://github.com/nicholasehamilton/ggtern).
 Thanks for sharing your knowledge. Also, thanks for the X users that
@@ -43,7 +43,7 @@ ggsoiltexture(some_data)
 
 ![](README_files/figure-gfm/simple_plot-1.png)<!-- -->
 
-Also, it is posible to remove the grid:
+Also, it is possible to remove the grid:
 
 ``` r
 ggsoiltexture(some_data,
@@ -112,7 +112,7 @@ ggsoiltexture(some_data,
 
 ## Comparing two classification systems.
 
-The package has the polygon data for each type of classification, so
+The package has the polygon data for each type of classification so that
 they can be used separately for more advanced plotting. Due to the
 amount of information, it is recommended to remove all legends and add a
 description of the figure.
@@ -155,7 +155,7 @@ ggsoiltexture(tibble(sand = 20,
 ## Using Munsell colors
 
 Munsell colors are widely used for soil classification. Using the
-library ´munsell´ the color can be transformed to hexcolor and be
+library ´munsell´, the color can be transformed to hex color and be
 plotted.
 
 ``` r
