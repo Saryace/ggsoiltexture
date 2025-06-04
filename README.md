@@ -6,6 +6,15 @@ plotting of soil textural data. It is still in development and under
 review in a journal for publication. Meanwhile, if you use this package
 please cite this repository. Hope it is useful!
 
+## Code contributors
+
+Thanks to Moreen, Tom and Lauren for collaborate to improve
+ggsoiltexture.
+
+Moreen Willaredt [GitHub Account](https://github.com/MrnWllrdt/) Tom
+Bishop [GitHub Account](https://github.com/tombishop1) Lauren O’Brien
+[GitHub Account](https://github.com/obrl-soil)
+
 ## Acknowledgements
 
 The code was development based on the ggplot_piper functions written by
