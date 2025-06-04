@@ -9,6 +9,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. It is still in development and under review in a journal for publication. Meanwhile, if you use this package please cite this repository. Hope it is useful!
 
+## Code contributors
+
+Thanks to Moreen, Tom and Lauren for collaborate to improve ggsoiltexture.
+
+Moreen Willaredt [GitHub Account](https://github.com/MrnWllrdt/)
+Tom Bishop [GitHub Account](https://github.com/tombishop1)
+Lauren O'Brien [GitHub Account](https://github.com/obrl-soil)
+
 ## Acknowledgements 
 The code was development based on the ggplot_piper functions written by [Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired by the R package [ggtern](https://github.com/nicholasehamilton/ggtern). Thanks for sharing your knowledge. Also, thanks for the X users that give us feedback about functionalities and new ideas.
 
@@ -90,13 +98,19 @@ ggsoiltexture(some_data,
               class = "SWISS")
 ```
 
+```{r simple_plot-8}
+ggsoiltexture(some_data,
+              show_grid = FALSE,
+              class = "SSEW")
+```
+
 # Some examples
 
 ## Comparing two classification systems. 
 
 The package has the polygon data for each type of classification, so they can be used separately for more advanced plotting. Due to the amount of information, it is recommended to remove all legends and add a description of the figure.
 
-```{r simple_plot-8}
+```{r simple_plot-9}
 
 data("nz_polygons")
 data("usda_polygons")
@@ -134,7 +148,7 @@ ggsoiltexture(tibble(sand = 20,
 
 Munsell colors are widely used for soil classification. Using the library ´munsell´ the color can be transformed to hexcolor and be plotted. 
 
-```{r simple_plot-9}
+```{r simple_plot-10}
 library(munsell)
 library(ggrepel)
 munsell_data <- tibble(sand = c(45,60,30,50,70,40,55,65,35,25,80,20),

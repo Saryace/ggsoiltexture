@@ -8,7 +8,7 @@ please cite this repository. Hope it is useful!
 
 ## Acknowledgements
 
-The code was developed based on the ggplot_piper functions written by
+The code was development based on the ggplot_piper functions written by
 [Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired
 by the R package [ggtern](https://github.com/nicholasehamilton/ggtern).
 Thanks for sharing your knowledge. Also, thanks for the X users that
@@ -108,11 +108,19 @@ ggsoiltexture(some_data,
 
 ![](README_files/figure-gfm/simple_plot-7-1.png)<!-- -->
 
+``` r
+ggsoiltexture(some_data,
+              show_grid = FALSE,
+              class = "SSEW")
+```
+
+![](README_files/figure-gfm/simple_plot-8-1.png)<!-- -->
+
 # Some examples
 
 ## Comparing two classification systems.
 
-The package has the polygon data for each type of classification so that
+The package has the polygon data for each type of classification, so
 they can be used separately for more advanced plotting. Due to the
 amount of information, it is recommended to remove all legends and add a
 description of the figure.
@@ -150,12 +158,12 @@ ggsoiltexture(tibble(sand = 20,
   labs(caption = "Dotted lined polygons: USDA classification\nColored polygons: New Zealand Classification")
 ```
 
-![](README_files/figure-gfm/simple_plot-8-1.png)<!-- -->
+![](README_files/figure-gfm/simple_plot-9-1.png)<!-- -->
 
 ## Using Munsell colors
 
 Munsell colors are widely used for soil classification. Using the
-library ´munsell´, the color can be transformed to hex color and be
+library ´munsell´ the color can be transformed to hexcolor and be
 plotted.
 
 ``` r
@@ -181,7 +189,7 @@ ggsoiltexture(munsell_data) +
 plot_munsell
 ```
 
-![](README_files/figure-gfm/simple_plot-9-1.png)<!-- -->
+![](README_files/figure-gfm/simple_plot-10-1.png)<!-- -->
 
 Even it is possible to facet them, due to is based on ggplot :)
 
