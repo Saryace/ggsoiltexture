@@ -1,0 +1,45 @@
+clay,sand,silt,label,code,x,y
+100,0,0,Clay,C,50,100
+75,0,25,Clay,C,62.5,75
+40,35,25,Clay,C,45,40
+30.5,62.5,7,Clay,C,22.25,30.5
+50,50,0,Clay,C,25,50
+75,0,25,Silty clay,ZC,62.5,75
+40,0,60,Silty clay,ZC,80,40
+40,35,25,Silty clay,ZC,45,40
+40,35,25,Silty clay loam,ZCL,45,40
+40,0,60,Silty clay loam,ZCL,80,40
+26,0,74,Silty clay loam,ZCL,87,26
+26,49,25,Silty clay loam,ZCL,38,26
+26,49,25,Silty loam,ZL,38,26
+26,0,74,Silty loam,ZL,87,26
+0,0,100,Silty loam,ZL,100,0
+0,75,25,Silty loam,ZL,25,0
+50,50,0,Sandy clay,SC,25,50
+30.5,62.5,7,Sandy clay,SC,22.25,30.5
+27,73,0,Sandy clay,SC,13.5,27
+27,73,0,Sandy clay loam,SCL,13.5,27
+30.5,62.5,7,Sandy clay loam,SCL,22.25,30.5
+20.5,69.5,10,Sandy clay loam,SCL,20.25,20.5
+17,83,0,Sandy clay loam,SCL,8.5,17
+17,83,0,Sandy loam,SL,8.5,17
+20.5,69.5,10,Sandy loam,SL,20.25,20.5
+10,75.5,13.5,Sandy loam,SL,18.5,10
+8.5,91.5,0,Sandy loam,SL,4.25,8.5
+8.5,91.5,0,Sand,S,4.25,8.5
+9,87,4,Sand,S,8.5,9
+0,92,8,Sand,S,8,0
+0,100,0,Sand,S,0,0
+9,87,4,Loamy sand,LS,8.5,9
+10,75.5,13.5,Loamy sand,LS,18.5,10
+12,63,25,Loamy sand,LS,31,12
+0,75,25,Loamy sand,LS,25,0
+0,92,8,Loamy sand,LS,8,0
+20.5,69.5,10,Loam,L,20.25,20.5
+26,49,25,Loam,L,38,26
+12,63,25,Loam,L,31,12
+10,75.5,13.5,Loam,L,18.5,10
+30.5,62.5,7,Clay loam,CL,22.25,30.5
+40,35,25,Clay loam,CL,45,40
+26,49,25,Clay loam,CL,38,26
+20.5,69.5,10,Clay loam,CL,20.25,20.5

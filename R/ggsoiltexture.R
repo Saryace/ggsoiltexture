@@ -8,7 +8,7 @@
 #'            columns must be approximately 100% (within 0.1% tolerance).
 #' @param show_grid Logical. If `TRUE` (default), a grid is displayed on the plot to aid interpretation.
 #' @param class A character string specifying the soil texture classification system to overlay on the plot.
-#'              Supported values are `"USDA"`, `"NZ"`, `"NZG"`, `"GERMAN"`, `"SSEW"` and `"SWISS"`. If `NULL` (default),
+#'              Supported values are `"USDA"`, `"NZ"`, `"NZG"`, `"AUS"`, `"GERMAN"`, `"SSEW"` and `"SWISS"`. If `NULL` (default),
 #'              no classification polygons are displayed.
 #'
 #' @return A `ggplot` object representing the soil texture ternary plot.
@@ -121,6 +121,7 @@ ggsoiltexture <- function(data, show_grid = TRUE, class = NULL) {
       "USDA" = usda_polygons,
       "NZ" = nz_polygons,
       "NZG" = nzg_polygons,
+      "AUS" = aus_polygons,
       "GERMAN" = german_polygons,
       "SWISS" = swiss_polygons,
       "SSEW" = ssew_polygons,

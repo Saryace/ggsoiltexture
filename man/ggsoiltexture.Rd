@@ -14,7 +14,7 @@ columns must be approximately 100% (within 0.1% tolerance).}
 \item{show_grid}{Logical. If `TRUE` (default), a grid is displayed on the plot to aid interpretation.}
 
 \item{class}{A character string specifying the soil texture classification system to overlay on the plot.
-Supported values are `"USDA"`, `"NZ"`, `"NZG"`, `"GERMAN"`, `"SSEW"` and `"SWISS"`. If `NULL` (default),
+Supported values are `"USDA"`, `"NZ"`, `"NZG"`, `"AUS"`, `"GERMAN"`, `"SSEW"` and `"SWISS"`. If `NULL` (default),
 no classification polygons are displayed.}
 }
 \value{
