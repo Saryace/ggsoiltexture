@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'ggsoiltexture '
+message: Simple ggplot2 function for plotting soil textural data
+type: software
+authors:
+  - orcid: 'https://orcid.org/0000-0003-3203-2106'
+    email: seaceved@uc.cl
+    given-names: Sara
+    family-names: Acevedo
+  - family-names: Willaredt
+    given-names: Moreen
+    email: mwillaredt@ucdavis.edu
+    orcid: 'https://orcid.org/0000-0002-0081-3170'
+  - orcid: 'https://orcid.org/0000-0002-7336-2171'
+    given-names: Lauren
+    family-names: O'Brien
+  - given-names: Tom
+    family-names: Bishop
+    email: thomas.bishop@manchester.ac.uk
+    orcid: 'https://orcid.org/0000-0001-8253-9293'
+identifiers:
+  - type: doi
+    value: 10.1016/j.softx.2025.102293
+    description: >-
+      ggsoiltexture: An R package based on ggplot2 for soil
+      texture data visualization
+repository-code: 'https://github.com/Saryace/ggsoiltexture'
+license: MIT
