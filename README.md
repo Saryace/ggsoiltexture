@@ -1,27 +1,46 @@
-ggsoiltexture
+Overview
 ================
 
-The goal of ggsoiltexture is to provide a simple ggplot function for the
-plotting of soil textural data. It is still in development and under
-review in a journal for publication. Meanwhile, if you use this package
-please cite this repository. Hope it is useful!
+The goal of ggsoiltexture is to provide a simple ggplot function for the plotting of soil textural data. The package was peer-reviewed in the journal SoftwareX. During these months, the package has been expanded to include several classifications, including the UK, Australia, and New Zealand. We hope that the package will be useful in your research.
+
+## Citation
+
+If you use this package in your research, please cite the associated paper:
+
+Acevedo, S., Willaredt, M., O’Brien, L., Giraldo, C., Vega, A., Contreras, C., & Pastén, P. (2025). ggsoiltexture: An R package based on ggplot2 for soil texture data visualization. SoftwareX, 31, 102293. https://doi.org/10.1016/j.softx.2025.102293
+
+Or using BibTeX:
+```bibtex
+@article{Acevedo2025,
+  title = {ggsoiltexture: An R package based on ggplot2 for soil texture data visualization},
+  volume = {31},
+  ISSN = {2352-7110},
+  url = {http://dx.doi.org/10.1016/j.softx.2025.102293},
+  DOI = {10.1016/j.softx.2025.102293},
+  journal = {SoftwareX},
+  publisher = {Elsevier BV},
+  author = {Acevedo,  Sara and Willaredt,  Moreen and O’Brien,  Lauren and Giraldo,  Carolina and Vega,  Alejandra and Contreras,  Cristina and Pastén,  Pablo},
+  year = {2025},
+  month = sep,
+  pages = {102293}
+}
+```
 
 ## Code contributors
 
-Thanks to Moreen, Tom and Lauren for collaborate to improve
+Thanks to Moreen, Tom, and Lauren for collaborating to improve
 ggsoiltexture.
 
-Moreen Willaredt [GitHub Account](https://github.com/MrnWllrdt/) Tom
-Bishop [GitHub Account](https://github.com/tombishop1) Lauren O’Brien
-[GitHub Account](https://github.com/obrl-soil)
+- Moreen Willaredt [GitHub Account](https://github.com/MrnWllrdt/)
+- Tom Bishop [GitHub Account](https://github.com/tombishop1)
+- Lauren O’Brien [GitHub Account](https://github.com/obrl-soil)
 
 ## Acknowledgements
 
-The code was development based on the ggplot_piper functions written by
+The code was developed based on the ggplot_piper functions written by
 [Jonh Dorian](https://gist.github.com/johnDorian/5561272) and inspired
 by the R package [ggtern](https://github.com/nicholasehamilton/ggtern).
-Thanks for sharing your knowledge. Also, thanks for the X users that
-give us feedback about functionalities and new ideas.
+Thanks for sharing your knowledge. Also, thanks to the X users that give us feedback about functionalities and new ideas.
 
 ## Installation
 
