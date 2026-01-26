@@ -1,0 +1,28 @@
+citHeader("Please cite ggsoiltexture using the following article:")
+
+citEntry(
+  entry   = "Article",
+  title   = "ggsoiltexture: An R package based on ggplot2 for soil texture data visualization",
+  author  = c(
+    person("Sara", "Acevedo"),
+    person("Moreen", "Willaredt"),
+    person("Lauren", "O’Brien"),
+    person("Carolina", "Giraldo"),
+    person("Alejandra", "Vega"),
+    person("Cristina", "Contreras"),
+    person("Pablo", "Pastén")
+  ),
+  journal = "SoftwareX",
+  year    = "2025",
+  volume  = "31",
+  pages   = "102293",
+  doi     = "10.1016/j.softx.2025.102293",
+  url     = "https://doi.org/10.1016/j.softx.2025.102293",
+  textVersion = paste(
+    "Acevedo, S., Willaredt, M., O’Brien, L., Giraldo, C., Vega, A.,",
+    "Contreras, C., & Pastén, P. (2025).",
+    "ggsoiltexture: An R package based on ggplot2 for soil texture data visualization.",
+    "SoftwareX, 31, 102293.",
+    "https://doi.org/10.1016/j.softx.2025.102293"
+  )
+)
