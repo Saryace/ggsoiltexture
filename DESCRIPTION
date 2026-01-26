@@ -2,6 +2,7 @@ Package: ggsoiltexture
 Type: Package
 Title: Simple ggplot2 function for plotting soil textural data
 Version: 1.1.1
+Date: 2026-01-26
 Author: Sara Acevedo 
 Maintainer: Sara Acevedo <seaceved@uc.cl>
 Description: Simple ggplot2 function for plotting soil textural data
