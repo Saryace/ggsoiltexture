@@ -1,43 +1,43 @@
-CLAY,SAND,SILT,NAME,CODE
-100,0,0,Clay,C
-60,40,0,Clay,C
-60,0,40,Clay,C
-60,40,0,Loamy Clay,LC
-60,10,30,Loamy Clay,LC
-35,35,30,Loamy Clay,LC
-35,65,0,Loamy Clay,LC
-60,10,30,Silty Clay,ZC
-60,0,40,Silty Clay,ZC
-35,0,65,Silty Clay,ZC
-35,35,30,Silty Clay,ZC
-35,65,0,Sandy Clay Loam,SC
-35,50,15,Sandy Clay Loam,SC
-18,67,15,Sandy Clay Loam,SC
-18,82,0,Sandy Clay Loam,SC
-35,50,15,Clay Loam,CL
-35,25,40,Clay Loam,CL
-18,42,40,Clay Loam,CL
-18,67,15,Clay Loam,CL
-35,25,40,Silt Loam,ZL
-35,0,65,Silt Loam,ZL
-18,0,82,Silt Loam,ZL
-18,42,40,Silt Loam,ZL
-18,82,0,Sandy Loam,SL
-18,42,40,Sandy Loam,SL
-8,52,40,Sandy Loam,SL
-8,92,0,Sandy Loam,SL
-8,92,0,Sand,S
-8,80,12,Sand,S
-0,80,20,Sand,S
-0,100,0,Sand,S
-8,80,12,Loamy Sand,LS
-8,52,40,Loamy Sand,LS
-0,60,40,Loamy Sand,LS
-0,80,20,Loamy Sand,LS
-18,42,40,Loamy Silt,LZ
-18,0,82,Loamy Silt,LZ
-0,18,82,Loamy Silt,LZ
-0,60,40,Loamy Silt,LZ
-18,0,82,Silt,Z
-0,0,100,Silt,Z
-0,18,82,Silt,Z
+clay,sand,silt,label,code,x,y
+60,40,0,Clay,C,30,60
+60,0,40,Clay,C,70,60
+100,0,0,Clay,C,50,100
+35,65,0,Loamy Clay,LC,17.5,35
+35,35,30,Loamy Clay,LC,47.5,35
+60,10,30,Loamy Clay,LC,60,60
+60,40,0,Loamy Clay,LC,30,60
+35,35,30,Silty Clay,ZC,47.5,35
+35,0,65,Silty Clay,ZC,82.5,35
+60,0,40,Silty Clay,ZC,70,60
+60,10,30,Silty Clay,ZC,60,60
+18,82,0,Sandy Clay Loam,SC,9,18
+18,67,15,Sandy Clay Loam,SC,24,18
+35,50,15,Sandy Clay Loam,SC,32.5,35
+35,65,0,Sandy Clay Loam,SC,17.5,35
+18,67,15,Clay Loam,CL,24,18
+18,42,40,Clay Loam,CL,49,18
+35,25,40,Clay Loam,CL,57.5,35
+35,50,15,Clay Loam,CL,32.5,35
+18,42,40,Silt Loam,ZL,49,18
+18,0,82,Silt Loam,ZL,91,18
+35,0,65,Silt Loam,ZL,82.5,35
+35,25,40,Silt Loam,ZL,57.5,35
+8,92,0,Sandy Loam,SL,4,8
+8,52,40,Sandy Loam,SL,44,8
+18,42,40,Sandy Loam,SL,49,18
+18,82,0,Sandy Loam,SL,9,18
+0,100,0,Sand,S,0,0
+0,80,20,Sand,S,20,0
+8,80,12,Sand,S,16,8
+8,92,0,Sand,S,4,8
+0,80,20,Loamy Sand,LS,20,0
+0,60,40,Loamy Sand,LS,40,0
+8,52,40,Loamy Sand,LS,44,8
+8,80,12,Loamy Sand,LS,16,8
+0,60,40,Loamy Silt,LZ,40,0
+0,18,82,Loamy Silt,LZ,82,0
+18,0,82,Loamy Silt,LZ,91,18
+18,42,40,Loamy Silt,LZ,49,18
+0,18,82,Silt,Z,82,0
+0,0,100,Silt,Z,100,0
+18,0,82,Silt,Z,91,18

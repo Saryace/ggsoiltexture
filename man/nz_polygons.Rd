@@ -3,7 +3,7 @@
 \docType{data}
 \name{nz_polygons}
 \alias{nz_polygons}
-\title{New Zealand soil texture polygons (usda_polygons)}
+\title{New Zealand soil texture polygons (nz_polygons)}
 \format{
 dataframe-tibble
 }
