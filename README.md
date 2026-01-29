@@ -262,3 +262,14 @@ github.com/Saryace/ggsoiltexture/issues.
 
 If you wish to contribute, please submit a pull request following the
 guidelines stated in CONTRIBUTING.md.
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
