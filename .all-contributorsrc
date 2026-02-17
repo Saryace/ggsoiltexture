@@ -1,4 +1,70 @@
 {
-  "projectName": "<insert the repo's name>",
-  "projectOwner": "<insert the repo's owner/orgs>"
+  "projectName": "ggsoiltexture",
+  "projectOwner": "Saryace",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Saryace",
+      "name": "Sara Acevedo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30844164",
+      "profile": "https://github.com/Saryace",
+      "contributions": [
+        "code",
+        "maintenance",
+        "doc"
+      ]
+    },
+    {
+      "login": "tombishop1",
+      "name": "Tom Bishop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20317486",
+      "profile": "https://github.com/tombishop1",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "lauren-obrien",
+      "name": "obrl-mwlr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46914665",
+      "profile": "https://github.com/lauren-obrien",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "MrnWllrdt",
+      "name": "MrnWllrdt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90610671",
+      "profile": "https://github.com/MrnWllrdt",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AleVEga2702",
+      "name": "AleVEga2702",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64941452",
+      "profile": "https://github.com/AleVEga2702",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "rdrobnak",
+      "name": "rdrobnak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206571043",
+      "profile": "https://github.com/rdrobnak",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
 }
